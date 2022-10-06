@@ -34,7 +34,8 @@ nav{
 
 .contenitoresfondo{
     width: 100%;
-    min-height: 1000px;
+    max-height: 1000px;
+    /* max-width: 1000px; */
     background-color:black;
 }
 
