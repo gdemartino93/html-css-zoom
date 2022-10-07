@@ -54,7 +54,7 @@ nav{
     margin: 2px;
     background-color: yellow;
     position: relative;
-    
+
     /* flex-grow: 1; */
 
 }
@@ -119,8 +119,17 @@ flex-wrap: nowrap;
 .icoleft,.icocenter,.icoright{
     display: flex;
     align-items: center;
+    height: 100%;
 }
 
 .icoright{
     height: 100%;
-    background-color: red;
+    color: red;
+    background-color: rgb(62, 59, 59);
+}
+.nomeutente{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    background-color: rgba(236, 236, 236, 0.2);
+}
